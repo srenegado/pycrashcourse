@@ -1,0 +1,3 @@
+In Python you can ask and accept user input and use that data in what we see fit.
+In Python you can store chunks of code in seperate files called modules which can be imported to other files.
+In Python you can abstract and try to model real world things in terms of classes.

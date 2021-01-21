@@ -1,0 +1,4 @@
+Reasons as to why people like programming:
+- I like problem-solving.
+- Modelling real-world things into code excites me.
+- Every time I program and work on new projects, I learn something new.
