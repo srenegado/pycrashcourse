@@ -37,6 +37,8 @@ data = [{
     'x': repo_links,
     'y': stars,
     'hovertext': labels,
+    'texttemplate': '%{y:.3s}',
+    'textposition': 'outside',
     'marker': {
         'color': 'rgb(3, 102, 214)',
         'line': {'width': 1.5, 'color': 'rgb(225, 228, 232)'}
