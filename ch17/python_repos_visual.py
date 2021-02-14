@@ -16,7 +16,7 @@ for repo_dict in repo_dicts:
     # Create link.
     repo_name = repo_dict['name']
     repo_url = repo_dict['html_url']
-    repo_link = (f"<a href='{repo_url}' style='color:rgb(42,63,95)'>"
+    repo_link = (f"<a href='{repo_url}' style='color:rgb(84,177,239)'>"
         f"{repo_name}</a>")
     repo_links.append(repo_link)
 
@@ -37,12 +37,11 @@ data = [{
     'x': repo_links,
     'y': stars,
     'hovertext': labels,
-    'hoverinfo': 'text',
     'marker': {
-        'color': 'rgb(60, 100, 150)',
-        'line': {'width': 1.5, 'color': 'rgb(25, 25, 25)'}
+        'color': 'rgb(3, 102, 214)',
+        'line': {'width': 1.5, 'color': 'rgb(225, 228, 232)'}
     },
-    'opacity': 0.6
+    'opacity': 0.75
 }]
 
 my_layout = {
@@ -58,7 +57,8 @@ my_layout = {
         'title': 'Stars',
         'titlefont': {'size': 18},
         'tickfont': {'size': 14}
-    }
+    },
+    'plot_bgcolor': 'rgb(249, 250, 251)'
 }
 
 fig = {'data': data, 'layout': my_layout}
