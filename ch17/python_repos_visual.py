@@ -58,7 +58,7 @@ my_layout = {
         'titlefont': {'size': 18},
         'tickfont': {'size': 14}
     },
-    'plot_bgcolor': 'rgb(249, 250, 251)'
+    'plot_bgcolor': 'rgb(235, 237, 240)'
 }
 
 fig = {'data': data, 'layout': my_layout}
