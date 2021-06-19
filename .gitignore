@@ -1,4 +1,4 @@
 *.zip
 *.pdf
 *.pyc
-pycrashcourse/**/__pycache__
+pycrashcourse/**/__pycache__/
