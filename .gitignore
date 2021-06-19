@@ -1,4 +1,16 @@
 *.zip
 *.pdf
-__pycache__/
 *.pyc
+ch2/__pycache__/
+ch3/__pycache__/
+ch4/__pycache__/
+ch5/__pycache__/
+ch6/__pycache__/
+ch7/__pycache__/
+ch8/__pycache__/
+ch9/__pycache__/
+ch10/__pycache__/
+ch11/__pycache__/
+ch15/__pycache__/
+ch16/__pycache__/
+ch17/__pycache__/
