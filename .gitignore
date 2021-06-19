@@ -1,2 +1,4 @@
 *.zip
 *.pdf
+*.pyc
+__pycache__
